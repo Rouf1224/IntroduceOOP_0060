@@ -1,7 +1,7 @@
 #include <iostream>
 using namespace std;
 
-class mahasiswa{
+class Mahasiswa{
     public :
       int nim;
       string nama;
@@ -15,5 +15,10 @@ class mahasiswa{
 };
 
 int main(){
+    Mahasiswa mhs;
+    mhs.nim = 2024;
+    mhs.nama ="Ahmad";
+    mhs.nilai = 90.5;
 
+    mhs.printData();
 }
